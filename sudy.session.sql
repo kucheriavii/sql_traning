@@ -1,1 +1,2 @@
-show databases;
+use study;
+show tables;
