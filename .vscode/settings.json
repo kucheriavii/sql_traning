@@ -9,7 +9,7 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "sudy",
+            "name": "talently",
             "database": "study",
             "username": "root",
             "askForPassword": true
