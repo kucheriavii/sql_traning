@@ -3,12 +3,12 @@ CREATE TABLE employers (
     , company_address VARCHAR(300)
     -- , yearly_revenue FLOAT(18,2) --Approximation
     , yearly_revenue NUMERIC(18, 2) 
-    , is_hiring BOOLEAN 
+    , is_hiring BOOLEAN DEFAULT FALSE
 );
 
 CREATE TABLE conversation(
     user_name VARCHAR(200),
     employer_name VARCHAR(250),
     message TEXT,
-    date_sent TIMESTAMP
+    date_sent TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

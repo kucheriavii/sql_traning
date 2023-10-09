@@ -1,1 +1,1 @@
-SELECT * FROM conversation;
+show tables;
